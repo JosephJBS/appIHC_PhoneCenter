@@ -110,7 +110,7 @@ $extraer=mysqli_fetch_array($result);
             <center><button class="btn btn-primary" name="btcompra" value="PagarCE" type="submit">Realizar
                     pedido</button></center>
             <br>
-            <center><a href="product.html" class="btn btn-out btn-success btn-square btn-main mt-2"
+            <center><a href="product.php" class="btn btn-out btn-success btn-square btn-main mt-2"
                     data-abc="true">Cancelar</a></center>
 
         </form>

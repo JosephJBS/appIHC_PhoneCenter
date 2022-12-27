@@ -22,16 +22,16 @@ session_start();
                  Phone Center
             </div>
 			<ul class="menu">
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="product.html">Catalogo</a></li>
-                <li><a href="enviarGarantia.php">Uso de Garantia</a></li>
+                <li><a href="indexSesion.php">Inicio</a></li>
+                <li><a href="product.php">Catálogo</a></li>
+                <li><a href="enviarGarantia.php">Uso de Garantía</a></li>
                 <li><a><?php echo $_SESSION['usuario'];?></a>
 					<ul class="submenu">
 						<li><a href="perfil.php">Ver Perfil</a></li>
-						<li><a href="../Controlador/cerrarsesion.php">Cerrar Sesion</a></li>
+						<li><a href="../Controlador/cerrarsesion.php">Cerrar Sesión</a></li>
 					</ul>
 				</li>
-				<li><a href="MostrarCarrito.php">carrito<img src="../assets/img/carro.png"></a></li>
+				<li><a href="MostrarCarrito.php">Carrito<img src="../assets/img/carro.png"></a></li>
 			</ul>
 		</nav>
         <div class="content-page cover-background font-content-index">
@@ -155,4 +155,4 @@ session_start();
     </div>
 
 </body>
-</html>
+</html>\Vistas\product.php

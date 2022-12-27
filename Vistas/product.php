@@ -1,3 +1,7 @@
+<?php
+//seguridad de sesion
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -16,18 +20,23 @@
 </head>
 <body>
 	<div class="page-container">
-		<nav class="full-reset nav-phonestore">
-           <div class="logo tittles-pages">
-                Tienda Online 
-           </div>
-           <ul class="list-unstyled full-reset navigation-list">
-
-			<li><a href="product.html" >Catalogo</a></li>
-			<li><a href="enviarGarantia.php">Uso de Garantia</a></li>
-			<li><a href="MostrarCarrito.php">carrito<img src="../assets/img/carro.png"></a></li>
+        <nav class="navegacion">
+            <div class="logo tittles-pages">
+                 Phone Center
+            </div>
+			<ul class="menu">
+                <li><a href="indexSesion.php">Inicio</a></li>
+                <li><a href="product.php">Catálogo</a></li>
+                <li><a href="enviarGarantia.php">Uso de Garantía</a></li>
+                <li><a><?php echo $_SESSION['usuario'];?></a>
+					<ul class="submenu">
+						<li><a href="perfil.php">Ver Perfil</a></li>
+						<li><a href="../Controlador/cerrarsesion.php">Cerrar Sesión</a></li>
+					</ul>
+				</li>
+				<li><a href="MostrarCarrito.php">Carrito<img src="../assets/img/carro.png"></a></li>
 			</ul>
-            <i class="fa fa-bars visible-xs btn-mobile"></i>
-    	</nav>
+		</nav>
 	    <div class="content-page">
 		    <div class="hidden-xs content-carousel">
 		    	<div id="carousel-phonestore" class="carousel slide" data-ride="carousel" style="margin-top:0;">

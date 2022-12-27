@@ -94,7 +94,9 @@ function calcularTiempo($fini,$ffin){
     <link rel="stylesheet" href="../css/EstiloPago.css"  />
 </head>
 <body style="background-color:#8ae9ec">
-    <form action="enviarGarantia.php" method="post">
+   
+
+<form action="enviarGarantia.php" method="post">
     	<h1>SOLICITE SU GARANTÍA</h1>
 
         <h2>Datos Personales</h2>

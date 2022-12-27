@@ -112,7 +112,7 @@ include '../Controlador/carrito.php';
                                 <dt>Total price: &nbsp$</dt>
                                 <dd class="text-right ml-3"><?php echo $total ?></dd>
                             </dl>
-                            <a href="product.html" class="btn btn-out btn-success btn-square btn-main mt-2" data-abc="true">Seguir Comprando</a>                
+                            <a href="product.php" class="btn btn-out btn-success btn-square btn-main mt-2" data-abc="true">Seguir Comprando</a>                
                             
                             <br><br>
                             <td>
@@ -138,7 +138,7 @@ include '../Controlador/carrito.php';
             No se han guardado porductos
         </div>
 
-        <a href="product.html" class="btn btn-out btn-success btn-square btn-main mt-2" data-abc="true">Continuar Comprando</a>
+        <a href="product.php" class="btn btn-out btn-success btn-square btn-main mt-2" data-abc="true">Continuar Comprando</a>
     <?php } ?>
 
 </body>

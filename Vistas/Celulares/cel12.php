@@ -133,7 +133,7 @@ include("../../Controlador/carrito.php");
 								<a href="../MostrarCarrito.php">Ver Carrito</a>
 									
 							</button></center>
-							<center><a href="../product.html">Volver</a></center>
+							<center><a href="../product.php">Volver</a></center>
 				   </div>
 			   </div>
 			</div>		
