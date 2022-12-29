@@ -1,3 +1,3 @@
 <?php
-$conexion=mysqli_connect("localhost:3306","root","12345","tienda2");
+$conexion=mysqli_connect("db4free.net:3306","adminroot1805","12345lol","tienda2");
 ?>
