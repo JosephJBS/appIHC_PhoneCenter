@@ -16,7 +16,7 @@ $extraer=mysqli_fetch_array($result);
 <html>
 <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <head>
-	<title>Registrar usuario</title>
+	<title>Perfil de Usuario</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="../css/EstiloRegistrarCliente.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
